@@ -36,6 +36,8 @@ namespace CSharp_Pechura_05.Models
         public string Name { get; set; }
         public string Title { get; set; }
         public long Id { get; set; }
+        public string UserName { get; set; }
+        public bool IsResponding { get; set; }
 
         public string FileLocation
         {

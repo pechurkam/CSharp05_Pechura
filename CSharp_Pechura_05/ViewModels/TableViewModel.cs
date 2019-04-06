@@ -103,6 +103,8 @@ namespace CSharp_Pechura_05.ViewModels
                                                   Id = row.Id,
                                                   Name = row.ProcessName,
                                                   Title = row.MainWindowTitle,
+                                                  UserName = row.StartInfo.UserName,
+                                                  IsResponding = row.Responding,
                                                   ProcessObj = row
                                               });
 

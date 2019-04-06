@@ -58,6 +58,8 @@
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="PROCESS ID" Binding="{Binding Id}" Width="70"></DataGridTextColumn>
 				<DataGridTextColumn Header="NAME"  Binding="{Binding Name}" Width="70"></DataGridTextColumn>
+				<DataGridTextColumn Header="USER NAME"  Binding="{Binding UserName}" Width="100"></DataGridTextColumn>
+				<DataGridTextColumn Header="IS RESPONDING"  Binding="{Binding IsResponding}" Width="100"></DataGridTextColumn>
 				<DataGridTextColumn Header="WINDOW TITLE" Binding="{Binding Title}" Width="150"/>
 				<DataGridTextColumn Header="MEMORY (%)" Binding="{Binding MemoryUsagePercent}" Width="100" />
 				<DataGridTextColumn Header="MEMORY (MB)" Binding="{Binding MemoryUsageMB}" Width="100" />
