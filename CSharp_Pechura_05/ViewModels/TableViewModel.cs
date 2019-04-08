@@ -86,7 +86,7 @@ namespace CSharp_Pechura_05.ViewModels
             }
         }
 
-        public int SelectedSortDescriptionByIndex { get; set; }
+        
 
         public IEnumerable<Models.ProcessModel> ProcessList
         {
